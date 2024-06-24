@@ -8,7 +8,7 @@ import { LoadTasks, DeleteTask } from '../../store/task.actions';
 @Component({
   selector: 'app-task-list',
   templateUrl: './task-list.component.html',
-  styleUrls: ['./task-list.component.scss']
+  styleUrls: ['./task-list.component.scss']  // Make sure it's .scss
 })
 export class TaskListComponent implements OnInit {
   @Select(TaskState.getTasks) tasks$: Observable<Task[]> | undefined;

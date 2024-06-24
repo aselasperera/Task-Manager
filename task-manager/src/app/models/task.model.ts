@@ -3,6 +3,6 @@ export interface Task {
     id: number;
     title: string;
     description: string;
-    completed: boolean;  // Add this line
+    completed: boolean;  
   }
   
